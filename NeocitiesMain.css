@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+
+}
+
+body{
+    background-color: #292638;
+}
+
+p,ul,h2,h3{
+    font-size: 1.2rem;
+    color: #0e0801;
+    font-family: 'Sintony', sans-serif;
+}
+
+.main{
+    padding-top: 40px;
+    width: 900px;
+    margin: 0 auto;
+    border: black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header{
+    width: 600px;
+    height: 170px;
+    background-color: #C0C46F;
+    font-family: 'Neucha', cursive;
+    font-size: x-large;
+    border-radius: 5px 0px 0px 5px;
+    color: #321414 ;
+}
+
+.pfp{
+    width: 300px;
+    height: 170px;
+    background-color: #C0C46F;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.pfp img{
+    width: 250px;
+    position: relative;
+    bottom: 45px;
+}
+
+.titlemain{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+
+
+.content{
+    border-radius: 5px 0px 0px 5px;
+    width: 650px;
+    background-color:#EDE4A9;
+    border: 2px black;
+
+}
+
+.sidebar{
+    border-radius: 0px 5px 5px 0px;
+    width: 250px;
+    background-color: #E49060;
+    text-align: center;
+
+    
+}
+
+.dashedbox{
+    border: 2px dashed black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.space{
+    width: 900px;
+    height: 20px;
+}
+
+.page{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 900px;
+    background-color: #EDE4A9;
+}
+
+.page img{
+    width: 90px;
+}
+
+.pagetitle{
+    padding: 0px 150px;
+    font-size: 40px;
+}
+
+.sidebartop{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: #d78657;
+    border-bottom: 500px;
+    border: black;
+}
+.sidebarcontent img {
+    width: 250px;
+
+    
+}
+
+
+a:link{
+    color:#5b3f1b;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+a:visited{
+    color: #321414;
+}
+
+a:hover{
+    color: #2c1a06;
+
+}
+
+a:active{
+    color: #a28564;
+}
